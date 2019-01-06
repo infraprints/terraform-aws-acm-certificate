@@ -15,6 +15,3 @@
 # backup and log files
 *.bak
 *.log
-
-# dist files
-dist/
