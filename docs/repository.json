@@ -1,8 +1,11 @@
 {
-  "name": "[PLACEHOLDER]",
-  "tagline": "[PLACEHOLDER]",
+  "name": "AWS ACM Certificate Terraform module",
+  "slug": "terraform-aws-acm-certificate",
+  "namespace": "aws",
+  "project": "infraprints",
+  "description": "Provision a certificate for a domain, verified through DNS.",
   "license": {
-    "name": "[PLACEHOLDER]"
+    "name": "MIT"
   },
-  "tags": ["[PLACEHOLDER]"]
+  "tags": ["terraform", "terraform-module", "aws", "aws-acm"]
 }
