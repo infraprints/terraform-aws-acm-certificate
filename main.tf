@@ -6,8 +6,8 @@ resource "aws_acm_certificate" "default" {
 
 resource "aws_route53_record" "validation" {
   count   = "${length(var.subject_alternative_names) + 1}"
-  zone_id = "${var.hosted_zone_id}"
-  ttl     = "${var.validation_record_ttl}"
+  zone_id = "${var.zone_id}"
+  ttl     = "${var.ttl}"
 
   name    = "${lookup(aws_acm_certificate.default.domain_validation_options[count.index], "resource_record_name")}"
   type    = "${lookup(aws_acm_certificate.default.domain_validation_options[count.index], "resource_record_type")}"
