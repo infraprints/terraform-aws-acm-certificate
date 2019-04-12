@@ -1,0 +1,14 @@
+---
+name: AWS ACM Certificate Terraform module
+slug: acm-certificate
+project: infraprints
+namespace: [terraform, aws]
+description: Provision a certificate for a domain, verified through DNS.
+license:
+  name: MIT
+tags:
+  - terraform
+  - terraform-module
+  - aws
+  - aws-acm
+  - certificates
