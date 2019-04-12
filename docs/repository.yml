@@ -1,5 +1,5 @@
 ---
-name: AWS ACM Certificate Terraform module
+name: AWS ACM Certificate by DNS
 slug: acm-certificate
 project: infraprints
 namespace: [terraform, aws]
