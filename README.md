@@ -1,4 +1,4 @@
-# AWS S3 Terraform State Output
+# AWS ACM DNS Validated Certificate
 
 Terraform module for provisioning a DNS validated certificate, along with the required validation records. The module will wait for validation to complete.
 
@@ -49,4 +49,8 @@ data "aws_route53_zone" "zone" {
 
 | Name | Description |
 |------|-------------|
-| arn |  |
+| arn | The ARN of the certificate that is being validated. |
+| domain\_name | The domain name for which the certificate is issued. |
+| fqdn | [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) built using the zone domain and name. |
+| id | The ARN of the certificate. |
+| validation\_record\_fqdns | List of FQDNs that implement the validation. |
