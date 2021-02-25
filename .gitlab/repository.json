@@ -1,5 +1,5 @@
 {
   "name": "terraform-aws-acm-certificate",
-  "url": "https://gitlab.com/infraprints/terraform-aws-acm-certificate",
+  "url": "https://gitlab.com/infraprints/modules/terraform-aws-acm-certificate",
   "status": "mirror"
 }
